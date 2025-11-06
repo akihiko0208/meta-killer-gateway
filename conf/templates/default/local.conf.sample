@@ -1,2 +1,4 @@
 MACHINE ?= "raspberrypi4-64"
 DISTRO ?= "happy-signage"
+
+LICENSE_FLAGS_ACCEPTED += "synaptics-killswitch"
