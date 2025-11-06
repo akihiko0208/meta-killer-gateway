@@ -7,8 +7,6 @@ inherit core-image
 IMAGE_FEATURES += "package-management ssh-server-dropbear"
 IMAGE_INSTALL:append = " \
     packagegroup-happy-signage \
-    signage-launcher \
-    weston-config \
     ca-certificates \
     sudo \
 "
