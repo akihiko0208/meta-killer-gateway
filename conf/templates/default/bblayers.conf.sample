@@ -6,9 +6,9 @@ BBPATH = "${TOPDIR}"
 BBFILES ?= ""
 
 BBLAYERS ?= " \
-  /home/runner/work_ossj2025/poky/meta \
-  /home/runner/work_ossj2025/poky/meta-poky \
-  /home/runner/work_ossj2025/poky/meta-yocto-bsp \
+  ${TOPDIR}/../poky/meta \
+  ${TOPDIR}/../poky/meta-poky \
+  ${TOPDIR}/../poky/meta-yocto-bsp \
   "
 # --- Happy Signage layers ---
 BBLAYERS += " \
