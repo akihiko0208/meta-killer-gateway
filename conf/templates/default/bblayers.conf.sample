@@ -1,3 +1,16 @@
+# POKY_BBLAYERS_CONF_VERSION is increased each time build/conf/bblayers.conf
+# changes incompatibly
+POKY_BBLAYERS_CONF_VERSION = "2"
+
+BBPATH = "${TOPDIR}"
+BBFILES ?= ""
+
+BBLAYERS ?= " \
+  /home/runner/work_ossj2025/poky/meta \
+  /home/runner/work_ossj2025/poky/meta-poky \
+  /home/runner/work_ossj2025/poky/meta-yocto-bsp \
+  "
+# --- Happy Signage layers ---
 BBLAYERS += " \
   ${TOPDIR}/../meta-raspberrypi \
   ${TOPDIR}/../meta-openembedded/meta-oe \
@@ -6,6 +19,6 @@ BBLAYERS += " \
   ${TOPDIR}/../meta-openembedded/meta-python \
   ${TOPDIR}/../meta-browser/meta-chromium \
   ${TOPDIR}/../meta-clang \
-  ${TOPDIR}/../poky/meta-scarthgap-rust-mixin \
   ${TOPDIR}/../meta-happy-signage \
+  ${TOPDIR}/../meta-lts-mixins \
 "
