@@ -10,15 +10,12 @@ BBLAYERS ?= " \
   ${TOPDIR}/../poky/meta-poky \
   ${TOPDIR}/../poky/meta-yocto-bsp \
   "
-# --- Happy Signage layers ---
+# --- Killer Gateway layers ---
 BBLAYERS += " \
   ${TOPDIR}/../meta-raspberrypi \
   ${TOPDIR}/../meta-openembedded/meta-oe \
   ${TOPDIR}/../meta-openembedded/meta-networking \
-  ${TOPDIR}/../meta-openembedded/meta-webserver \
   ${TOPDIR}/../meta-openembedded/meta-python \
-  ${TOPDIR}/../meta-browser/meta-chromium \
-  ${TOPDIR}/../meta-clang \
-  ${TOPDIR}/../meta-happy-signage \
-  ${TOPDIR}/../meta-lts-mixins \
+  ${TOPDIR}/../meta-erlang \
+  ${TOPDIR}/../meta-killer-gateway \
 "

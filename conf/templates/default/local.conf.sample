@@ -92,7 +92,7 @@ MACHINE ??= "raspberrypi4-64"
 # these defaults.
 #
 # DISTRO ?= "poky"
-DISTRO ?= "happy-signage"
+DISTRO ?= "killer-gateway"
 
 # As an example of a subclass there is a "bleeding" edge policy configuration
 # where many versions are set to the absolute latest code from the upstream 
@@ -285,4 +285,3 @@ PACKAGECONFIG:append:pn-qemu-system-native = " sdl"
 # track the version of this file when it was generated. This can safely be ignored if
 # this doesn't mean anything to you.
 CONF_VERSION = "2"
-LICENSE_FLAGS_ACCEPTED += "synaptics-killswitch"
