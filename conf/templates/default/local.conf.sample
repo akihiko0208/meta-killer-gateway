@@ -81,7 +81,7 @@ MACHINE ??= "raspberrypi4-64"
 #
 # The default is a tmp directory under TOPDIR.
 #
-#TMPDIR = "${TOPDIR}/tmp"
+# TMPDIR = "${TOPDIR}/tmp"
 
 #
 # Default policy config
