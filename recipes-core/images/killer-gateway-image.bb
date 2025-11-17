@@ -1,5 +1,5 @@
 # recipes-core/images/killer-gateway-image.bb
-SUMMARY = "IoT Gateway image (Erlang/OTP, OpenSSH, sudo, logging)"
+SUMMARY = "IoT Gateway image (OpenSSH, sudo, logging)"
 LICENSE = "MIT"
 
 require recipes-core/images/core-image-base.bb
